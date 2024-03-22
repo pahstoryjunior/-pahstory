@@ -1,0 +1,98 @@
+body{
+    margin: 0;
+    background-color: rgb(50, 158, 50);
+}
+
+.header1 {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(0, 0, 0);
+}
+
+.header1 a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 11px;
+    font-size: 21px;float: right;
+    
+}
+
+
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    color: black;
+    padding: 2px 65px;
+
+}
+
+.header a{
+    text-decoration: none;
+    margin: 1px 12px;
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.486);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header a:hover{
+    color: black;
+    border-bottom: solid 2px rgba(0, 0, 0, 0.486);
+}
+
+.header .logo h2{
+    padding: 12px;
+    margin: 0;
+    font-size: 35px;
+    line-height: normal;
+    font-weight: bold;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+
+
+
+.image-about img{
+    width: 75%;
+    position: absolute;
+    right: 0px;
+    top: 130px;
+    z-index: -1;
+    height: 700px;
+}
+.text-about {
+    width: 100%;
+    margin: auto;
+}
+
+.text-about h1{
+    font-size: 4rem;
+    color: white;
+    margin-left: 55%;
+    text-align: center;
+}
+
+.text-about p{
+    color: white;
+    font-size: 15px;
+    text-align: justify;
+    margin-left: 55%;
+    width: 40%;
+    margin-top: 10%;
+
+}
+
+
+.boxer-logo h1{
+    position: absolute;
+    font-size: 11rem;
+    top: 85px;
+    transform: rotate(90deg);
+    color: white;
+}
+.boxer-logo1{
+    transform: rotate(deg);
+    color: rgb(34, 83, 28);
+}

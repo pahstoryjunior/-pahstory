@@ -1,0 +1,93 @@
+body{
+    margin: 0;
+    background-color: rgb(50, 158, 50);
+}
+
+.header1 {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(0, 0, 0);
+}
+
+.header1 a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 11px;
+    font-size: 21px;float: right;
+    
+}
+
+
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    color: black;
+    padding: 2px 65px;
+
+}
+
+.header a{
+    text-decoration: none;
+    margin: 1px 12px;
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.486);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header a:hover{
+    color: black;
+    border-bottom: solid 2px rgba(0, 0, 0, 0.486);
+}
+
+.boxer-logo h1{
+    position: absolute;
+    font-size: 11rem;
+    top: 85px;
+    transform: rotate(90deg);
+    color: white;
+}
+
+
+
+.events {
+    padding: 50px 0;
+    width: 60%;
+    margin: auto;
+  }
+  
+  .events h2 {
+    font-size: 56px;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .event-card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    margin-bottom: 30px;
+  }
+  
+  .event-card img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .event-info {
+    padding: 20px;
+  }
+  
+  .event-info h3 {
+    font-size: 44px;
+    margin-bottom: 10px;
+  }
+  
+  .event-info p {
+    font-size: 36px;
+    margin-bottom: 10px;
+  }
+  

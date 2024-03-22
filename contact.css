@@ -1,0 +1,117 @@
+body{
+    margin: 0;
+    background-color: rgb(50, 158, 50);
+}
+
+body{
+    margin: 0;
+    background-color: rgb(50, 158, 50);
+}
+
+.header1 {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(0, 0, 0);
+}
+
+.header1 a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 11px;
+    font-size: 21px;float: right;
+    
+}
+
+
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    color: black;
+    padding: 2px 65px;
+
+}
+
+.header a{
+    text-decoration: none;
+    margin: 1px 12px;
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.486);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header a:hover{
+    color: black;
+    border-bottom: solid 2px rgba(0, 0, 0, 0.486);
+}
+
+.header .logo h2{
+    padding: 12px;
+    margin: 0;
+    font-size: 35px;
+    line-height: normal;
+    font-weight: bold;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+.boxer-logo h1{
+    position: absolute;
+    font-size: 11rem;
+    top: 85px;
+    transform: rotate(90deg);
+    color: white;
+}
+.boxer-logo1{
+    transform: rotate(deg);
+    color: rgb(34, 83, 28);
+}
+
+.contact {
+    display: flex;
+    width: 70%;
+    position: absolute;
+    right: 0px;
+}
+.contact-details {
+    width: 100%;
+}
+.contact-image  img{
+    width: 80%;
+    height: 800px;
+    border-radius: 40px;
+}
+.contact-image{
+    width: 100%;
+}
+form{
+    padding: 20px;
+}
+form input,
+textarea {
+    width:90%;
+    border-radius: 20px;
+    font-size: 30px;
+    padding: 10px;
+    background-color: black;
+    color: antiquewhite;
+    border: none;
+    text-align: center;
+    resize: none;
+}
+.contact-details h1{
+    font-size: 2rem;
+}
+
+button{
+    width:51%;
+    margin-top: 60px;
+    border-radius: 20px;
+    font-size: 30px;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    border: none;   
+    cursor: pointer;
+}
